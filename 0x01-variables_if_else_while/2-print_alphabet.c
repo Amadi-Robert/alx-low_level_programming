@@ -3,13 +3,14 @@
 #include <ctype.h>
 
 /**
- * main - Entry point
+ * main -Entry point
  *
- * REturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int x;
+
 	for (x = 'A'; x <= 'Z'; x++)
 	{
 	putchar(tolower(x));

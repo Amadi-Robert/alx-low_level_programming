@@ -18,3 +18,4 @@ else
 		printf("%d, ", num++);
 	printf("%d\n", num);
 }
+}

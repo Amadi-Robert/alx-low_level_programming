@@ -5,7 +5,7 @@
  *Return: 0
  */
 
-int main(vooid)
+int main(void)
 {
 	int count;
 	unsigned long n1 = 0, n2 = 1, sum;

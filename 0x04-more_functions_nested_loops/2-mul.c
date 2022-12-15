@@ -2,16 +2,12 @@
 #include <stdio.h>
 /**
  * mul - Multiplies two integers
- * @a: integer to be checked
- * @b: integer to be checked
- * Return: result
+ * @a: first input
+ * @b: second input
+ * Return: multiplication result
  */
 
 int mul(int a, int b)
 {
-	int a, b, result;
-
-	result = (a * b);
-
-	return (result);
+	return (a * b);
 }

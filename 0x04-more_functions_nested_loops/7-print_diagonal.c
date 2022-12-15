@@ -5,7 +5,7 @@
  *Return: a diagona
  */
 
-void print_diagonal(int c)
+void print_diagonal(int n)
 {
 	int co, sp;
 	if (n <= 0)

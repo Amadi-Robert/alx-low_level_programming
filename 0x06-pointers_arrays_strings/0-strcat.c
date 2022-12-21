@@ -11,7 +11,7 @@ char *_strcat(char *dest, char *src)
 {
 	int lengthA, lengthB;
 
-	lenthA = 0;
+	lengthA = 0;
 	lengthB = 0;
 
 	while (*(dest + lengthA) != '\0')

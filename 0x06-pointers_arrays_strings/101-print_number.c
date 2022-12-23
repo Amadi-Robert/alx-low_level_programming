@@ -6,19 +6,16 @@
 
 void print_number(int n)
 {
-	int last_digit = 0;
-	int spill = 0;
+	unsigned int num = n;
 
 	if (n < 0)
 	{
-		_putchar('_');
-		spill = 5;
-		n = -(n + spill);
+		_putchar('-');
+		num = -num;
 	}
 
-	last_digit = n % 10;
-	if (n >= 10)
-		print_number(n % 10);
+	if ((num / 10) > 0)
+		print_nummber(num / 10);
 
-	_putchar((last_digit + spill) + '0');
+	_putchar((num % 10) + '0');
 }

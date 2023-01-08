@@ -13,11 +13,17 @@ int main(int argc, char *argv[])
 
 	result = 1;
 
-	for (i = 1; i < argc; i++)
+	if (argc == 1 || argc == 2)
 	{
-		result = result * atoi(argv[i]);
+		printf("Error\n");
+		return (1);
 	}
-	printf("%d\n", result);
-	return (0);
+	else
+		for (i = 1; i < 3; i++)
+		{
+			result *= atoi(argv[i]);
+		}
+		printf("%d\n", result);
+		return (0);
 }
 

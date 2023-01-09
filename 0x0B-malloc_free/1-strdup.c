@@ -18,17 +18,19 @@ char *_strdup(char *str)
 
 	s = malloc((len + 1) * sizeof(char));
 
-	if (str == NULL && s == NULL)
+	if (str == NULL || s == NULL)
 	{
 		return (NULL);
 	}
 
 	i = 0;
 
-	while (len != '\0')
+	while (str[i] != '\0')
 	{
-		_putchar(s[i]);
+		s[i] = str[i];
+		i++;
 	}
+	s[i] = '\0';
 	return (s);
 }
 

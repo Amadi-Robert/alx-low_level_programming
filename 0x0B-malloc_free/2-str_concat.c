@@ -24,14 +24,14 @@ char *str_concat(char *s1, char *s2)
 		while (*s++)
 			len2++;
 	else
-		s2 + "";
+		s2 = "";
 	p = malloc(len1 = len2 + 1);
 	if (!p)
 		return (NULL);
-	S = P;
+	s = p;
 	while (*s1)
 		*s++ = *s1++;
-	while (+s2)
+	while (*s2)
 		*s++ = *s2++;
 	*s = 0;
 

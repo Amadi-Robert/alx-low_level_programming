@@ -1,6 +1,6 @@
 #ifndef _LINKED_LIST
 #define _LINKED_LIST
-
+#include <stddef.h>
 typedef struct list_s
 {
     char *str;

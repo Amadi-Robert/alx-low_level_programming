@@ -1,0 +1,5 @@
+/* Ignore mainc.c and putchar.c files not to push to github */
+
+
+*main.c
+*_putchar.c

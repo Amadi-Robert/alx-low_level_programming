@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdio.h>
 /**
  * free_listp - frees a linked list
  * @head: head of a list.
@@ -54,7 +54,7 @@ size_t print_listint_safe(const listint_t *head)
 			if (head == add->p)
 			{
 				printf("-> [%p] %d\n", (void *)head, head->n);
-				free_listp(&hptr);
+				free_listint(&hptr);
 				return (nnodes);
 			}
 		}

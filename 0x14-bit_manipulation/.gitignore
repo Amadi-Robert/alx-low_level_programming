@@ -1,0 +1,4 @@
+/* Ignore all files of main.c and putchar */
+
+*main.c
+*_putchar.c
